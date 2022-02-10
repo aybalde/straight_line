@@ -13,7 +13,7 @@ unsigned short Testdot(right_t R, dot_t D);
 using namespace std;
 int main() {
     right_t R;
-    srand(-4); // this function will set the seed for the rand() to 10
+    srand(-4); // this function will set the seed for the rand() to -4 
     R.a = rand()%10; // it will return different values according to the seed from srand() and here it is 10
     R.b = rand()%10;
     cout <<R.a<<endl;
